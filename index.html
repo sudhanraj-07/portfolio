@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhay V - Resume</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #e3f2fd;
+            color: #222;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: #ffffff;
+            padding: 30px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+            border-radius: 20px;
+            border: 5px solid #0275d8;
+        }
+        h1, h2, h3 {
+            text-align: center;
+            color: #0275d8;
+        }
+        h2 {
+            border-bottom: 4px solid #0275d8;
+            display: inline-block;
+            padding-bottom: 6px;
+        }
+        .contact {
+            text-align: center;
+            border-top: 5px solid #0275d8;
+            padding-top: 20px;
+            background: #f1f8ff;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container p-4">
+        <h1 class="text-primary">Abhay V</h1>
+        <h3 class="text-secondary">Recent BSc Computer Science Graduate | Programmer | UI/UX Designer</h3>
+
+        <div class="alert alert-info text-center" role="alert">
+            Welcome to my resume! Scroll down for details.
+        </div>
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Abhay V</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="card mb-4" id="about">
+            <div class="card-body">
+                <h2 class="card-title">About Me</h2>
+                <p class="card-text">Recent graduate with a BSc Computer Science degree from Vellore Institute Of Technology. Highly skilled in <span class="badge bg-primary">Python</span>, <span class="badge bg-primary">Java</span>, and <span class="badge bg-primary">SQL</span> with expertise in UI/UX design. Passionate about innovation, teamwork, and problem-solving.</p>
+            </div>
+        </div>
+
+        <div class="card mb-4" id="education">
+            <div class="card-body">
+                <h2 class="card-title">Education</h2>
+                <p><strong>Vellore Institute Of Technology, Vellore</strong> - BSc Computer Science (2021 - 2024)</p>
+            </div>
+        </div>
+        
+        <div class="card mb-4" id="skills">
+            <div class="card-body">
+                <h2 class="card-title">Skills</h2>
+                <ul class="list-group">
+                    <li class="list-group-item">Python, Java, C, C++, SQL</li>
+                    <li class="list-group-item">UI/UX Design, Posters, Vectors</li>
+                    <li class="list-group-item">Teamwork & Leadership</li>
+                    <li class="list-group-item">Communication Skills</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="card mb-4" id="projects">
+            <div class="card-body">
+                <h2 class="card-title">Projects</h2>
+                <p><strong>Smart Lab:</strong> Lab Monitoring and Management System using Python, HTML, CSS, and SQL.</p>
+            </div>
+        </div>
+
+        <div class="modal fade" id="contactModal" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Contact Info</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Email: <a href="mailto:abhayashok3516@gmail.com">abhayashok3516@gmail.com</a></p>
+                        <p>Phone: +91 7736651318</p>
+                        <p>Location: Kozhikode, Kerala</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="text-center mt-4">
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contactModal">Contact Me</button>
+        </div>
+    </div>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
